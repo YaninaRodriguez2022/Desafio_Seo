@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("https://images.app.goo.gl/oN4F4QCFpmBNcydj7");
+  background-size: 100%;
+  box-sizing: border-box;
+  background-color: #3f220c; }
+
+.fondo {
+  background-color: #3f220c; }
+  .fondo div h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 30px; }
+
+.containerNovedades {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around; }
+  .containerNovedades article {
+    text-align: center;
+    background-color: #CC9E61;
+    border: solid 1px;
+    margin-inline: 10px; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171717; }
+  nav ul ol {
+    display: inline-block; }
+    nav ul ol a {
+      text-decoration: none;
+      color: #fffefd;
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-size: x-large;
+      list-style-type: none;
+      text-align: right; }
+    nav ul ol:hover {
+      background-color: red; }
+
+#logoContenedor {
+  background-color: #171717;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0.5rem 1rem;
+  top: 0px;
+  left: 0px; }
+
+#logoTamaño {
+  width: 150px;
+  height: 82px; }
+
+.footer {
+  display: block;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #eeeeee;
+  background-color: #1b1a17; }
+  .footer li {
+    list-style: none;
+    padding-left: 0;
+    background-color: #1b1a17; }
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; }
+  .contenedor ol {
+    margin-top: 1rem;
+    display: flex; }
+
+.socials {
+  text-align: center; }
+  .socials img {
+    margin-inline: 0.3rem; }
+
+#redesSociales {
+  text-align: left;
+  list-style-type: none; }

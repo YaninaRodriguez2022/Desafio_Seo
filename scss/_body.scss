@@ -1,0 +1,11 @@
+@import "variables";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("https://images.app.goo.gl/oN4F4QCFpmBNcydj7");
+    background-size: 100%;
+    box-sizing: border-box;
+    background-color: $fondo;
+    // color: $texto1;
+}

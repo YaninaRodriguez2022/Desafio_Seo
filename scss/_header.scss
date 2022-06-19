@@ -1,0 +1,48 @@
+
+@mixin imgLogo($ancho,$altura) {
+    width: $ancho ;
+    height: $altura;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$navFondo;
+    ul{
+
+        ol{
+            display: inline-block;
+
+            a{
+                text-decoration: none;
+                color: rgb(255, 254, 253);
+                font-family: 'Oleo Script Swash Caps', cursive;
+                font-size: x-large;
+                list-style-type: none;
+                text-align: right;
+            }
+            &:hover{
+                background-color: red;
+            }
+        }
+    }
+
+}
+
+#logoContenedor {
+    background-color: $navFondo;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0.5rem 1rem;
+    top: 0px;
+    left: 0px;
+ 
+}
+#logoTamaño {
+
+    @include imgLogo(150px,82px);
+
+}

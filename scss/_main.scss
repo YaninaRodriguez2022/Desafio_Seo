@@ -1,0 +1,28 @@
+@import "variables";
+.fondo{
+    
+    background-color: $fondo;
+    div{
+        h1{
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            padding: 12px 5px 12px 5px;
+          
+            margin: 20px 30px;
+        }
+    }
+}
+.containerNovedades {
+
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    article{
+        text-align: center;
+        background-color: #CC9E61;
+        border: solid 1px ;
+        margin-inline: 10px;
+    }
+}
